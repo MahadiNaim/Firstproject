@@ -26,5 +26,6 @@ public class GroupTestNG {
 			driver.findElement(By.name("q")).sendKeys("NeW York");
 			driver.findElement(By.name("q")).submit();
 			Thread.sleep(3000);
+			driver.close();
 		}
 }
