@@ -7,6 +7,6 @@ public class NGexample {
 	@Test
 	public void exmNG1() {
 		
-		
+		System.out.println("hello world");
 	}
 }

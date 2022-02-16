@@ -13,6 +13,8 @@ public class Test1 {
 		Thread.sleep(2500);
 		driver.get("https://scheduling.healthfirst.org/");
 		Thread.sleep(2500);
+		driver.close();
+		
 
 	}
 
