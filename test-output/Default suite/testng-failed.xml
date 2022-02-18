@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.xyz.MavenExample.ReadDataFromExcel">
+      <class name="com.xyz.MavenExample.GroupTestNG">
         <methods>
-          <include name="a3_search" invocation-numbers="2 3 4 5 6 7 8"/>
+          <include name="a1_openBrowser"/>
         </methods>
-      </class> <!-- com.xyz.MavenExample.ReadDataFromExcel -->
+      </class> <!-- com.xyz.MavenExample.GroupTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
