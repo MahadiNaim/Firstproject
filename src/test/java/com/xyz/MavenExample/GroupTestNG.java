@@ -11,7 +11,7 @@ public class GroupTestNG {
 		
 		@Test
 		public void a1_openBrowser() {
-			System.setProperty("webDriver.chrome.driver", "Driver/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
